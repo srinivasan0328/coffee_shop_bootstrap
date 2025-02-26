@@ -94,3 +94,20 @@ hr{
     background-size: cover;
     top: 0;
 }
+
+#scrollUpBtn {
+    position: fixed;
+    bottom: 2.5rem;
+    right: 1rem;
+    display: none; /* Hidden by default */
+    z-index: 1000;
+    background: transparent;
+}
+
+#scrollUpBtn i{
+    background-color: #cdbcab;
+    height: 40px;
+    width: 40px;
+    font-size: 2rem;
+    border: 15px;
+}
