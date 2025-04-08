@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop website using BootStrap</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <header>
+
+        <div class="navSection fixed-top bg-white shadow-sm rounded">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-12 py-4 d-flex align-items-center justify-content-center">
+                        <nav class="navbar navbar-expand-lg navbar-light w-100">
+                            <a class="navbar-brand" href="./index.html"><img src="../assets/images/logo.png"
+                                    alt="Coffee Shop Logo"></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                <ul class="navbar-nav ml-auto d-flex justify-content-around">
+                                    <li class="nav-item text-capitalize"><a class="nav-link buttonFont"
+                                            href="./index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item text-capitalize"><a class="nav-link buttonFont"
+                                            href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item text-capitalize"><a class="nav-link buttonFont"
+                                            href="#popularMenu">Menu</a>
+                                    </li>
+                                    <li class="nav-item text-capitalize"><a class="nav-link buttonFont"
+                                            href="#gallery">gallery</a>
+                                    </li>
+                                    <li class="nav-item text-capitalize"><a class="nav-link buttonFont"
+                                            href="#team">team</a>
+                                    </li>
+                                    <li class="nav-item text-capitalize"><a class="nav-link buttonFont"
+                                        href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="heroSection py-3">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex align-items-center justify-content-center text-capitalize mt-5">
+                        <div
+                            class="jumbotron  text-center d-flex align-items-center justify-content-center flex-column bg-transparent mt-5">
+                            <h1 class="display-1 heroFont text-capitalize">coffee heaven</h1>
+                            <p class="mb-5 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Adipisci ipsa id vero perferendis, reiciendis dolores!</p>
+                            <a class="btn buttonFont btn-hover text-center text-white regularButton py-3 px-5 m-auto text-capitalize rounded-0 btnhover"
+                                href="#about" role="button">about us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+
+        <section class="aboutSection py-3" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center align-items-center">
+                        <figure class="contactImg">
+                            <img class="img-fluid w-100 h-auto" src="./assets/images/about-img.jpg" alt="about image">
+                        </figure>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center align-items-center flex-column text-capitalize">
+                        <div class="aboutBox mb-3">
+                            <h2 class="headingFont">A cup of coffee can complete your day</h2>
+                            <p class="regularText mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Pariatur, esse corrupti. Incidunt fuga sit numquam est consequatur provident ipsa
+                                quidem! Lorem</p>
+                            <a href="#popularMenu"
+                                class="btn buttonFont btn-hover text-center text-white regularButton py-3 px-5 m-auto text-capitalize rounded-0">our
+                                menu</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="facilitySection  py-3" id="facility">
+            <div class="container">
+                <div class="row mb-5">
+                    <div
+                        class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                        <div
+                            class="headingBox text-center d-flex justify-content-center align-items-center flex-column">
+                            <img class="img-fluid" src="./assets/images/heading-img.jpg" alt="">
+                            <h2 class="headingFont text-center text-capitalize">our facility</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 p-1">
+                        <div class="card text-center border-0 d-flex justify-content-center align-items-center">
+                            <div class="card-header bg-transparent border-0">
+                                <img src="./assets/images/icon-1.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h6 class="fw-semibold mb-3 footHead text-capitalize">varieties of coffee</h6>
+                                <p class="card-text regularText text-capitalize text-justify">Lorem ipsum dolor, sit
+                                    amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 p-1">
+                        <div class="card text-center border-0 d-flex justify-content-center align-items-center">
+                            <div class="card-header bg-transparent border-0">
+                                <img src="./assets/images/icon-2.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h6 class="fw-semibold mb-3 footHead text-capitalize">coffee beans</h6>
+                                <p class="card-text regularText text-capitalize text-justify">Lorem ipsum dolor, sit
+                                    amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 p-1">
+                        <div class="card text-center border-0 d-flex justify-content-center align-items-center">
+                            <div class="card-header bg-transparent border-0">
+                                <img src="./assets/images/icon-3.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h6 class="fw-semibold mb-3 footHead text-capitalize">breakfast and sweets</h6>
+                                <p class="card-text regularText text-capitalize text-justify">Lorem ipsum dolor, sit
+                                    amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 p-1">
+                        <div class="card text-center border-0 d-flex justify-content-center align-items-center">
+                            <div class="card-header bg-transparent border-0">
+                                <img src="./assets/images/icon-4.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h6 class="fw-semibold mb-3 footHead text-capitalize">ready to go coffee</h6>
+                                <p class="card-text regularText text-capitalize text-justify">Lorem ipsum dolor, sit
+                                    amet consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="popularMenuSection py-3" id="popularMenu">
+            <div class="container">
+                <div class="row mb-5">
+                    <div
+                        class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                        <div
+                            class="headingBox text-center d-flex justify-content-center align-items-center flex-column">
+                            <img class="img-fluid" src="./assets/images/heading-img.jpg" alt="">
+                            <h2 class="headingFont text-center text-capitalize">popular menu</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/menu-1.png" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">love you coffee</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/menu-2.png" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">cappuccino</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/menu-3.png" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">mocha coffee</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/menu-4.png" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">frappuccino</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/menu-5.png" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">black Coffee</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/menu-6.png" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">love heart coffee</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="OurGallerySection py-3" id="gallery">
+            <div class="container">
+                <div class="row mb-5">
+                    <div
+                        class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                        <div
+                            class="headingBox text-center d-flex justify-content-center align-items-center flex-column">
+                            <img class="img-fluid" src="./assets/images/heading-img.jpg" alt="">
+                            <h2 class="headingFont text-center text-capitalize">our gallery</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/gallery-1.jpg" class="card-img-top mb-4" alt="our gallery">
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/gallery-2.jpg" class="card-img-top mb-4" alt="our gallery">
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/gallery-3.jpg" class="card-img-top mb-4" alt="our gallery">
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/gallery-4.jpg" class="card-img-top mb-4" alt="our gallery">
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/gallery-5.jpg" class="card-img-top mb-4" alt="our gallery">
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/gallery-6.jpg" class="card-img-top mb-4" alt="our gallery">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="OurTeamSection py-3" id="team">
+            <div class="container">
+                <div class="row mb-5">
+                    <div
+                        class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                        <div
+                            class="headingBox text-center d-flex justify-content-center align-items-center flex-column">
+                            <img class="img-fluid" src="./assets/images/heading-img.jpg" alt="">
+                            <h2 class="headingFont text-center text-capitalize">our team</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/our-team-1.jpg" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">john deo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/our-team-2.jpg" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">john deo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/our-team-3.jpg" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">john deo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/our-team-4.jpg" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">john deo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/our-team-5.jpg" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">john deo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center mb-3">
+                        <div class="card text-center border-0">
+                            <img src="./assets/images/our-team-6.jpg" class="card-img-top mb-0" alt="our team">
+                            <div class="card-body">
+                                <p class="card-text text-capitalize footText">john deo</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="contactFormSection py-3" id="contact">
+            <div class="container">
+                <div class="row mb-5">
+                    <div
+                        class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center align-items-center">
+                        <div
+                            class="headingBox text-center d-flex justify-content-center align-items-center flex-column">
+                            <img class="img-fluid" src="./assets/images/heading-img.jpg" alt="">
+                            <h2 class="headingFont text-center text-capitalize">contact us</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center align-items-center">
+                        <figure class="contactImg">
+                            <img src="./assets/images/contact-img (1).jpg" alt="">
+                        </figure>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center align-items-center">
+
+                        <form class="border border-dark p-5 w-100">
+                            <div class="formTitle text-center mb-3">
+                                <h3 class="formTitle">Book A Table</h3>
+                            </div>
+                            <div class="form-group mb-5">
+                                <input type="text" class="form-control border-dark rounded-0 p-5" id="name"
+                                    placeholder="Enter Your Name">
+                            </div>
+                            <div class="form-group mb-5">
+                                <input type="number" class="form-control border-dark rounded-0 p-5" id="mobNumber"
+                                    placeholder="Enter Your Number">
+                            </div>
+                            <div class="form-grou mb-5">
+                                <input type="number" class="form-control border-dark rounded-0 p-5" id="number"
+                                    placeholder="How Many Guests">
+                            </div>
+                            <div
+                                class="form-group text-center  px-3 py-3 w-50 m-auto d-sm-w-100">
+                                <button type="submit" class="buttonFont regularButton py-3 px-5 m-auto text-capitalize rounded-0 border-0 text-white btn-hover">Send
+                                    Message</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        <div class="footerSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 p-1">
+                        <div class="card text-center border-0 d-flex justify-content-center align-items-center">
+                            <div class="card-header bg-transparent border-0">
+                                <i
+                                    class="fa-solid fa-envelope fa-2x d-flex justify-content-center align-items-center"></i>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="fw-semibold mb-3 footHead text-capitalize">Our Email</h6>
+                                <p class="card-text footText text-capitalize">shaakshi@gmail.com <br>
+                                    hyhy@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 p-1">
+                        <div class="card text-center border-0 d-flex justify-content-center align-items-center">
+                            <div class="card-header bg-transparent border-0">
+                                <i class="fa-solid fa-clock fa-2x d-flex justify-content-center align-items-center"></i>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="fw-semibold mb-3 footHead text-capitalize">Openings hours</h6>
+                                <p class="card-text footText ">07:00 am to 09:00 pm</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 p-1">
+                        <div class="card text-center border-0 d-flex justify-content-center align-items-center">
+                            <div class="card-header bg-transparent border-0">
+                                <i
+                                    class="fa-solid fa-location-dot fa-2x d-flex justify-content-center align-items-center"></i>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="fw-semibold mb-3 footHead text-capitalize">shop location</h6>
+                                <p class="card-text footText text-capitalize">mumbai, india- 400101</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3 p-1">
+                        <div class="card text-center border-0 d-flex justify-content-center align-items-center">
+                            <div class="card-header bg-transparent border-0">
+                                <i class="fa-solid fa-phone fa-2x d-flex justify-content-center align-items-center"></i>
+                            </div>
+                            <div class="card-body">
+                                <h6 class="fw-semibold mb-3 footHead text-capitalize">our number</h6>
+                                <p class="card-text footText text-capitalize">+91-123-456-7890 <br>+91-111-222-3333</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col p-1">
+                        <div class="copyRightBox">
+                            <p class="text-capitalize footText text-center">© copyright @ 2025 by <span
+                                    class="spanItem">mr. Srinivasan </span>| all rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <button id="scrollUpBtn" class="btn btn-primary h-2 w-2 bg-transparent border-0">
+        <i class="fa fa-arrow-up d-flex align-items-center justify-content-center rounded"></i>
+    </button>
+
+    <script src="./script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

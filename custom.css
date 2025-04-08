@@ -1,0 +1,172 @@
+i {
+    background-color: #be9c79;
+    color: #ffffff;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+.footHead {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: var(--ffSecondary);
+    color: var(--secondaryColor);
+}
+
+.footText {
+    font-size: 2rem;
+    font-family: var(--ffSecondary);
+    color: var(--secondaryColor);
+}
+
+hr {
+    border: 1px solid var(--darkColor);
+}
+
+.spanItem {
+    color: #be9c79;
+}
+
+.regularText {
+    font-size: 1.5rem;
+    font-family: var(--ffSecondary);
+    color: var(--secondaryColor);
+}
+
+.regularButton {
+    background-color: var(--tertiaryColor);
+    /* font-size: 1.6rem; */
+}
+
+.buttonFont {
+    font-size: 2rem;
+    font-family: var(--ffSecondary);
+    font-weight: 500;
+}
+
+.btn-hover:hover {
+    background-color: var(--darkColor) !important;
+    color: var(--primaryColor) !important;
+}
+
+.formTitle {
+    font-size: 3.5rem;
+    font-family: var(--ffSecondary);
+    color: var(--secondaryColor);
+}
+
+::placeholder {
+    font-size: 2.5rem;
+}
+
+.img-fluid {
+    height: 4rem;
+}
+
+.headingFont {
+    font-size: 4rem;
+    font-family: var(--ffPrimary);
+    color: var(--secondaryColor);
+    font-weight: 800;
+}
+
+.heroFont {
+    font-size: 5rem;
+    font-family: var(--ffPrimary);
+    color: var(--secondaryColor);
+    font-weight: 800;
+}
+
+.aboutFont {
+    font-size: 4rem;
+    font-family: var(--ffPrimary);
+    color: var(--secondaryColor);
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.heroSection {
+    background-color: #ffffff;
+    background-image: url(./assets/images/hero.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+#scrollUpBtn {
+    position: fixed;
+    bottom: 3.5rem;
+    right: 2rem;
+    display: none;
+    z-index: 1000;
+    background: transparent;
+}
+
+#scrollUpBtn i {
+    background-color: #cdbcab;
+    height: 55px;
+    width: 55px;
+    font-size: 2rem;
+}
+
+.navbar-toggler {
+    font-size: 2rem;
+    background-color: #e1e0e0;
+    color: #000000;
+}
+
+.navbar-toggler:hover {
+    background-color: #c6c2c2;
+}
+
+
+nav img {
+    height: 100%;
+    width: 5.5rem;
+}
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    /* background-color: #5a5757; */
+}
+
+.navbar-nav {
+    width: 50%;
+}
+
+.buttonFont {
+    font-size: 2rem;
+    font-family: var(--ffSecondary);
+    font-weight: 500;
+    color: var(--secondaryColor) !important;
+}
+.nav-link:hover{
+    transform: scale(1.07);
+    transition: transform 0.3s ease;
+}
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+@media (width <=576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .navbar-nav {
+        /* background-color: #be9c79; */
+        width: 100%;
+        text-align: center;
+        padding-right: 1rem;
+    }
+}
